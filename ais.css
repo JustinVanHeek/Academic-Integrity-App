@@ -5,22 +5,15 @@ html {
 button {
 	background-color: #FFCE0E;
 	height: 40px;
-	height: 10vw;
-	max-height: 50px;
 	width: 150px;
-	width: 30vw;
-	max-width: 200px;
-	font-size: 24px;
-	font-size: calc(20px + .5vw);
 	border: none;
 	border-radius: 10px;
-	border-radius: 3vw;
-	margin: 15px;
-	margin: 2vw;
 	font-family: Futura;
 	font-weight: bold;
 	text-align: center;
+	font-size: 24px;
 	box-shadow: 2px 2px 4px #000000;
+	margin: 15px;
 	outline-style: none;
 }
 
@@ -52,6 +45,26 @@ img {
 	width: 100%;
 	background: #ffffff;
 }
+
+.navLinks {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Futura;
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+	color: #ffce0e;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
 
 @font-face {
 	font-family: Futura;
