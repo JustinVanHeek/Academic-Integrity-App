@@ -1,14 +1,6 @@
-* {
-	margin: 0;
-}
-html, body {
-	height: 100%;
-}
-.container {
-	background: linear-gradient(to bottom right, #7d8fa7, #ffffff);
-	text-align: center;
-	margin: 0;
-	border: 0px;
+html { 
+  background: url(landingBackground.png) no-repeat center center fixed; 
+  background-size: cover;
 }
 button {
 	background-color: #FFCE0E;
@@ -48,9 +40,10 @@ img {
 
 .university-footer {
 	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 	background: #ffffff;
-	border: 1px solid red;
-	height: 40px;
 }
 
 @font-face {
