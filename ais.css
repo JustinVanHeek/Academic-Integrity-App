@@ -5,15 +5,22 @@ html {
 button {
 	background-color: #FFCE0E;
 	height: 40px;
+	height: 10vw;
+	max-height: 50px;
 	width: 150px;
+	width: 30vw;
+	max-width: 200px;
+	font-size: 24px;
+	font-size: calc(20px + .5vw);
 	border: none;
 	border-radius: 10px;
+	border-radius: 3vw;
+	margin: 15px;
+	margin: 2vw;
 	font-family: Futura;
 	font-weight: bold;
 	text-align: center;
-	font-size: 24px;
 	box-shadow: 2px 2px 4px #000000;
-	margin: 15px;
 	outline-style: none;
 }
 
