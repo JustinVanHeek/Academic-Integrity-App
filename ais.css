@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.container {
+	background: linear-gradient(to bottom right, #7d8fa7, #ffffff);
+	text-align: center;
+	margin: 0;
+	border: 0px;
+}
+button {
+	background-color: #FFCE0E;
+	height: 40px;
+	width: 150px;
+	border: none;
+	border-radius: 10px;
+	font-family: Futura;
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+	box-shadow: 2px 2px 4px #000000;
+	margin: 15px;
+	outline-style: none;
+}
+
+button:hover {
+	background-color: #FFDF1F;
+}
+
+button:active {
+  background-color: #EEBD0D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  outline: none;
+}
+
+img {
+	max-width: 100%;
+	margin: auto;
+	display: block;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.university-footer {
+	position: fixed;
+	background: #ffffff;
+	border: 1px solid red;
+	height: 40px;
+}
+
+@font-face {
+	font-family: Futura;
+	src: url(GlacialIndifference-Regular.otf);
+}
