@@ -6,15 +6,15 @@
 <body>
 	<h1>Modules</h1>
 	<div class="university-footer navLinks">
-		<a href="home.html">Home</a>
+		<a href="home.php">Home</a>
 		|
-		<a href="about.html">About</a>
+		<a href="about.php">About</a>
 		|
-		<a href="modules.html">Modules</a>
+		<a href="modules.php">Modules</a>
 		|
-		<a href="resources.html">Resources</a>
+		<a href="resources.php">Resources</a>
 		|
-		<a href="quiz.html">Quiz</a>
+		<a href="quiz.php">Quiz</a>
 	</div>
 </body>
 </html>

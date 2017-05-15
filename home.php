@@ -14,19 +14,19 @@ $xml= simplexml_load_file("Resources/home_" . $_SESSION['lang'] . ".xml") or die
 <body>
 	<img src=<?php echo '"' . $xml->logo->__toString() . '"'; ?>>
 	<div class="buttons">
-		<a href="about.html">
+		<a href="about.php">
 			<button class="home"><?php echo $xml->buttons->about->__toString(); ?></button>
 		</a>
-		<a href="/modules.html">
+		<a href="/modules.php">
 			<button class="home"><?php echo $xml->buttons->modules->__toString(); ?></button>
 		</a>
-		<a href="/resources.html">
+		<a href="/resources.php">
 			<button class="home"><?php echo $xml->buttons->resources->__toString(); ?></button>
 		</a>
-		<a href="/quiz.html">
+		<a href="/quiz.php">
 			<button class="home"><?php echo $xml->buttons->quiz->__toString(); ?></button>
 		</a>
-		<a href="/project.html">
+		<a href="/project.php">
 			<button class="home"><?php echo $xml->buttons->project->__toString(); ?></button>
 		</a>		
 	</div>
