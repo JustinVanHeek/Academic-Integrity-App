@@ -36,7 +36,7 @@ function createButton($i) {
 	<link rel="stylesheet" href="ais.css">
 </head>
 <body>
-<div style="position:fixed;top:30%;margin:auto;width:100%;text-align:center;">
+<div style="position:fixed;top:10%;margin:auto;width:100%;text-align:center;">
 <?php
 $i = 0;
 foreach ($xml->module as $module) {
