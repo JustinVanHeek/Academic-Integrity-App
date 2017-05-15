@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<quiz>
+	<title>Check your understanding</title>
+	<body>
+		This section will test your understanding of the concepts and issues presented in the tutorial. It is divided into four sections and should take about 5 to 10 minutes to complete.
+
+		For each question, select a response and then check your answer. If your response was not correct, try again. Check your response to each question separately; your answers are not retained from one question to the next.
+	</body>
+	<questions>
+		<question>
+			<text>Which of the following are fundamental values of academic integrity?</text>
+			<options>
+				<option>
+					<answer>Honesty</answer>
+					<explanation>
+						Your answer is partially correct. Lying in all matters concerning your academic communications, including exams and assignments, is academic misconduct.
+
+						However, the best answer is "all of the above."
+
+						These values are all fundamental to academic integrity:
+
+						honesty
+						trust
+						fairness
+						respect
+						responsibility
+						Try again!
+					</explanation>
+				</option>
+				<option>
+					<answer>Trust</answer>
+					<explanation>
+						Your answer is partially correct. A trustworthy person can be believed in;
+						they present themselves and their work without deception.
+
+						However, the best answer is "all of the above."
+
+						These values are all fundamental to academic integrity:
+
+						honesty
+						trust
+						fairness
+						respect
+						responsibility
+						Try again!
+					</explanation>
+				</option>
+				<option>
+					<answer>Fairness</answer>
+					<explanation>
+						Incorrect:
+						Your answer is partially correct. It is academic misconduct to facilitate unfair advantage through actions such as posting assignment solutions to discussion boards, letting a classmate sneak a peek at your answers during an exam, or giving classmates copies of your assignment.
+
+						However, the best answer is "all of the above."
+
+						These values are all fundamental to academic integrity:
+
+						honesty
+						trust
+						fairness
+						respect
+						responsibility
+						Try again!
+					</explanation>
+				</option>
+				<option>
+					<answer>Respect</answer>
+					<explanation>
+						Incorrect:
+						Your answer is partially correct. Inappropriate, disrespectful behaviour undermines a culture of academic integrity.
+
+						However, the best answer is "all of the above."
+
+						These values are all fundamental to academic integrity:
+
+						honesty
+						trust
+						fairness
+						respect
+						responsibility
+						Try again!
+					</explanation>
+				</option>
+				<option>
+					<answer>Responsibility</answer>
+					<explanation>
+						Incorrect:
+						Your answer is partially correct. Waterloo students have a responsibility to conform to standards acceptable in the University of Waterloo community.
+
+						However, the best answer is "all of the above."
+
+						These values are all fundamental to academic integrity:
+
+						honesty
+						trust
+						fairness
+						respect
+						responsibility
+						Try again!
+					</explanation>
+				</option>
+				<option>
+					<answer correct="true">All of the Above</answer>
+					<explanation>
+						Correct!
+						Your answer is correct. These values are all fundamental to academic integrity.
+
+						Honesty: Lying in all matters concerning your academic communications
+						is academic misconduct.
+						Trust: A trustworthy person can be believed in; trustworthy people
+						present themselves and their work without deception.
+						Fairness: It is academic misconduct to facilitate unfair advantage
+						Respect: Inappropriate, disrespectful behaviour undermines a culture of
+						academic integrity.
+						Responsibility: Waterloo students have a responsibility to conform to standards acceptable in the community.
+
+						Next question:
+					</explanation>
+				</option>
+			</options>
+		</question>
+		<question>
+			<text>The University of Waterloo has a policy that describes the offences that constitute misconduct.</text>
+			<options>
+				<option>
+					<answer correct="true">True</answer>
+					<explanation>
+						University Policy 71 - Student Discipline describes offences that constitute misconduct. It also outlines what penalties apply.
+
+						You should be familiar with this policy, and Policy 72 - Student Appeals.
+
+						Next question:
+					</explanation>
+				</option>
+				<option>
+					<answer>False</answer>
+					<explanation>
+						Incorrect:
+						The offences that constitute misconduct are described in University
+						Policy 71 - Student Discipline.
+
+						Try again!
+					</explanation>
+				</option>
+			</options>
+		</question>
+	</questions>
+</quiz>
