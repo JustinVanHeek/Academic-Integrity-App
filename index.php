@@ -3,6 +3,7 @@
 
 if (isset($_GET['lang'])) {
 	$_SESSION['lang'] = $_GET['lang'];
+	header('Location: home.html');
 }
 if (!(isset($_SESSION['lang']))) {
 $_SESSION['lang'] = "en";
@@ -17,15 +18,14 @@ $_SESSION['lang'] = "en";
 	<link rel="stylesheet" href="ais.css">
 </head>
 <body>
-	<div style="position:fixed;top:30%;">
-		<div class="dropdown">
-			<button onclick="languageDropdown()" class="languageDropdown">Language</button>
-			<div id="languageDropdown" class="dropdownContent">
-				<a href="?lang=en">English</a><br>
-				<a href="?lang=fr">Francais</a><br>
-				<a href="?lang=zh">普通话</a>
-			</div>
-		</div>
+	<div style="position:fixed;top:30%;margin:auto;width:100%;text-align:center;">
+		<h1> Select a language: </h1>
+		<select onchange="location = this.value;">
+			<option></option>
+			<option value="?lang=en">English</option>
+			<option value="?lang=fr">Francais</option>
+			<option value="?lang=zh">普通话</option>
+		<select>
 	</div>
 	<div class="university-footer">
 		<img src="footer.png" />

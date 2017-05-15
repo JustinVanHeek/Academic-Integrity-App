@@ -2,7 +2,7 @@ html {
   background: url(landingBackground.png) no-repeat center center fixed; 
   background-size: cover;
 }
-button {
+button.home {
 	background-color: #FFCE0E;
 	height: 40px;
 	width: 150px;
@@ -17,11 +17,11 @@ button {
 	outline-style: none;
 }
 
-button:hover {
+button.home:hover {
 	background-color: #FFDF1F;
 }
 
-button:active {
+button.home:active {
   background-color: #EEBD0D;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
