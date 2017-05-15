@@ -3,7 +3,7 @@
 
 if (isset($_GET['lang'])) {
 	$_SESSION['lang'] = $_GET['lang'];
-	header('Location: home.html');
+	header('Location: home.php');
 }
 if (!(isset($_SESSION['lang']))) {
 $_SESSION['lang'] = "en";
