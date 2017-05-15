@@ -53,7 +53,7 @@ function getProject() {
 		</a>		
 	</div>
 	<div class="university-footer">
-		<img src="Assets/footer.png" />
+		<img src="footer.png" />
 	</div>
 </body>
 </html>
