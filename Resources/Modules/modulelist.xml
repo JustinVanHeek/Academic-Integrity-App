@@ -3,5 +3,6 @@
 	
 	<!--The file name of each module without the _lang.xml in order-->
 	<module>module1</module>
+	<module>module2</module>
 	
 </module_list>

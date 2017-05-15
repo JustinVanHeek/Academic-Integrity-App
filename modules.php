@@ -25,7 +25,7 @@ function getModule($index) {
 }
 function createButton($i) {
 	$name = getModule($i)->name;
-	echo '<a href="?m=' . $i . '"><button class="home">' . $name . '</button></a>';
+	echo '<a href="?m=' . $i . '"><button class="home" style="width:80%">' . $name . '</button></a>';
 }
 
 ?>
