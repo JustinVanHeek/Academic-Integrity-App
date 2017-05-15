@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<home_page>
+	<title>Home</title>
+	<logo>logo.png</logo>
+	<buttons>
+		<about>About</about>
+		<modules>Modules</modules>
+		<resources>Resources</resources>
+		<quiz>Quiz</quiz>
+		<project>Project</project>
+	</buttons>
+</home_page>
