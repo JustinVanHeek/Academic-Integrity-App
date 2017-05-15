@@ -14,7 +14,7 @@ $xml= simplexml_load_file("Resources/home_" . $_SESSION['lang'] . ".xml") or die
 <body>
 	<img src=<?php echo '"Assets/' . $xml->images->logo->__toString() . '"'; ?>>
 	<div class="buttons">
-		<a href="about.php">
+		<a href="/about.php">
 			<button class="home"><?php echo $xml->buttons->about->__toString(); ?></button>
 		</a>
 		<a href="/modules.php">

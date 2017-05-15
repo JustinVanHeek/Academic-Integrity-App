@@ -28,7 +28,7 @@ $_SESSION['lang'] = "en";
 		<select>
 	</div>
 	<div class="university-footer">
-		<img src="footer.png" />
+		<img src="Assets/footer.png" />
 	</div>
 </body>
 </html>

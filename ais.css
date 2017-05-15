@@ -1,5 +1,5 @@
 html { 
-  background: url(landingBackground.png) no-repeat center center fixed; 
+  background: url(Assets/landingBackground.png) no-repeat center center fixed; 
   background-size: cover;
 }
 button.home {
