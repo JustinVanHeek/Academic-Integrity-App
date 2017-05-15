@@ -1,8 +1,13 @@
-<title>About</title>
-<text>In this tutorial, you will be given the opportunity to consider the implications of integrity in your academic life and beyond. Our intention is to help you understand the basic values of integrity, and our hope is that you will strive to apply these values in your actions as a member of the Waterloo community and in your everyday life.
+<?xml version="1.0"?>
+<about_page>
+	<title>About</title>
+	<text>
+		In this tutorial, you will be given the opportunity to consider the implications of integrity in your academic life and beyond. Our intention is to help you understand the basic values of integrity, and our hope is that you will strive to apply these values in your actions as a member of the Waterloo community and in your everyday life.
 
-A community of integrity consists of individuals with integrity. Studying in a community of integrity means that you will be proud to be a member of the Waterloo community and you will have confidence in the value of your education.  Students learning and researching in a university with integrity take pride in their work and the accomplishments of their institution.
+		A community of integrity consists of individuals with integrity. Studying in a community of integrity means that you will be proud to be a member of the Waterloo community and you will have confidence in the value of your education.  Students learning and researching in a university with integrity take pride in their work and the accomplishments of their institution.
 
-The purpose of this tutorial is to support the students of the University of Waterloo in their efforts to uphold academic integrity. We will provide examples to illustrate waterloo policies in specific situations. Keep in mind that the examples in this tutorial are not all-inclusive; do not assume that any behaviours or actions not appearing as examples in this tutorial are not misconduct.
+		The purpose of this tutorial is to support the students of the University of Waterloo in their efforts to uphold academic integrity. We will provide examples to illustrate waterloo policies in specific situations. Keep in mind that the examples in this tutorial are not all-inclusive; do not assume that any behaviours or actions not appearing as examples in this tutorial are not misconduct.
 
-When you have completed the tutorial, including the section called "Check your understanding," you will be invited to commit to integrity in your academic career at the University of Waterloo.</text>
+		When you have completed the tutorial, including the section called "Check your understanding," you will be invited to commit to integrity in your academic career at the University of Waterloo.
+	</text>
+</about_page>
