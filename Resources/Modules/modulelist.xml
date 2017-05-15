@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<module_list>
+	
+	<!--The file name of each module without the _lang.xml in order-->
+	<module>module1</module>
+	
+</module_list>

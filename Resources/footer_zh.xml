@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<footer>
+	
+	<!--The words displayed on the footer links-->
+	<home>Home</home>
+	<about>About</about>
+	<modules>Modules</modules>
+	<resources>Resources</resources>
+	<quiz>Quiz</quiz>
+	
+</footer>
