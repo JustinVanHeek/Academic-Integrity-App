@@ -21,6 +21,7 @@ $footer= simplexml_load_file("Resources/footer_" . $_SESSION['lang'] . ".xml") o
 			foreach($question->options->option as $option) {
 				echo '<input type="radio" name="q' . $i . '">' . $option->answer . '</input><br>';
 			}
+		$i++;
 		}
 		?>
 		<br>
