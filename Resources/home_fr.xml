@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <home_page>
+	
+	<!--The title to be displayed as the web page title-->
 	<title>Accueil</title>
-	<logo>logo.png</logo>
+
+	<!--The words to be displayed on each button-->
 	<buttons>
 		<about>À Propos De Nous</about>
 		<modules>Modules</modules>
@@ -9,4 +12,10 @@
 		<quiz>Quiz</quiz>
 		<project>Projet</project>
 	</buttons>
+
+	<!--The file locations of the images (from Assets/ )-->
+	<images>
+		<logo>logo.png></logo>
+		<footer>footer.png</footer>
+	</images>
 </home_page>

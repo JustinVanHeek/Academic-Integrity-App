@@ -12,7 +12,7 @@ $xml= simplexml_load_file("Resources/home_" . $_SESSION['lang'] . ".xml") or die
 	<title><?php echo $xml->title->__toString(); ?></title>
 </head>
 <body>
-	<img src=<?php echo '"' . $xml->logo->__toString() . '"'; ?>>
+	<img src=<?php echo '"Assets/' . $xml->images->logo->__toString() . '"'; ?>>
 	<div class="buttons">
 		<a href="about.php">
 			<button class="home"><?php echo $xml->buttons->about->__toString(); ?></button>
@@ -31,7 +31,7 @@ $xml= simplexml_load_file("Resources/home_" . $_SESSION['lang'] . ".xml") or die
 		</a>		
 	</div>
 	<div class="university-footer">
-		<img src="Assets/footer.png" />
+		<img src=<?php echo '"Assets/' . $xml->images->footer->__toString() . '"'; ?> />
 	</div>
 </body>
 </html>
