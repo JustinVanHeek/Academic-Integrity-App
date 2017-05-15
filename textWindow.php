@@ -78,7 +78,7 @@ function goToNextPage() {
 </head>
 <body>
 	<div style="position:fixed;top:10%;text-align:center;">
-		<?php getBodyText(); ?>
+		<h1><?php getBodyText(); ?></h1>
 		<br>
 		<a href="?prev=true">
 			<img style="display:inline;height:auto;max-width:40%;" src="Assets/backArrow.png">
