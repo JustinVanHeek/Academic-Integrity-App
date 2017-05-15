@@ -2,10 +2,9 @@
 <footer>
 	
 	<!--The words displayed on the footer links-->
-	<home>Home</home>
-	<about>About</about>
+	<home>Accueil</home>
+	<about>A Propos</about>
 	<modules>Modules</modules>
-	<resources>Resources</resources>
+	<resources>Ressources</resources>
 	<quiz>Quiz</quiz>
-	
 </footer>

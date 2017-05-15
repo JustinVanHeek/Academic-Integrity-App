@@ -2,10 +2,10 @@
 <footer>
 	
 	<!--The words displayed on the footer links-->
-	<home>Home</home>
-	<about>About</about>
-	<modules>Modules</modules>
-	<resources>Resources</resources>
-	<quiz>Quiz</quiz>
+	<home>家</home>
+	<about>关于</about>
+	<modules>组件</modules>
+	<resources>资源</resources>
+	<quiz>测验</quiz>
 	
 </footer>
