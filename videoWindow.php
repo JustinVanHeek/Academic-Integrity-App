@@ -73,19 +73,48 @@ function goToNextPage() {
 <html>
 
 <head>
+<style>
+.video-box {
+
+}
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left: 0;
+	width:100%;
+	height:100%;
+}
+
+</style>
+
 	<link rel="stylesheet" href="ais.css">
 	<title><?php getSectionName(); ?></title>
 </head>
 <body>
-	<div style="position:fixed;top:10%;text-align:center;">
-	<iframe src=<?php getVideo(); ?>></iframe>
+	<div style="position:fixed;top:0;text-align:center;margin:auto;right:0;left:0;bottom:50px; border: 5px solid red;">
+		<div class="video-container" id="video"><iframe src=<?php getVideo(); ?>></iframe></div>
 		<br>
 		<a href="?prev=true">
-			<img style="display:inline;height:auto;max-width:40%;" src="Assets/backArrow.png">
+			<img style="position:relative;display:inline;height:auto;max-width:40%;" src="Assets/backArrow.png">
 		</a>
 		<a href="?next=true;">
-			<img style="display:inline;height:auto;max-width:40%;" src="Assets/forwardArrow.png">
+			<img style="position:relative;display:inline;height:auto;max-width:40%;" src="Assets/forwardArrow.png">
 		</a>
+<script>
+var h = window.innerHeight;
+var video = document.getElementById("video");
+while (video.clientHeight > h - 200) {
+	video.style.paddingBottom = (parseFloat(window.getComputedStyle(video, null).getPropertyValue('padding-bottom')) - 30) + "px";
+}
+</script>
 	</div>
 	<div class="university-footer navLinks">
 		<a href="home.php"><?php echo $footer->home->__toString(); ?></a>
@@ -98,6 +127,9 @@ function goToNextPage() {
 		|
 		<a href="quiz.php"><?php echo $footer->quiz->__toString(); ?></a>
 	</div>
+
+
+
 </body>
 
-</html>
+</html>		
