@@ -35,6 +35,7 @@ $footer= simplexml_load_file("Resources/footer_" . $_SESSION['lang'] . ".xml") o
 				$j++;
 			}
 			$j = 1;
+			echo '<br>';
 			foreach($question->options->option as $option) {
 				echo '<div class="explanation" id="ex' . $i . '.' . $j . '">' . $option->explanation . '</div>';
 				$j++;

@@ -86,3 +86,6 @@ a:visited {
 .show {
 	display: block;
 }
+.explanation {
+	display: none;
+}
