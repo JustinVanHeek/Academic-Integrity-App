@@ -9,6 +9,17 @@ $footer= simplexml_load_file("Resources/footer_" . $_SESSION['lang'] . ".xml") o
 <html>
 <head>
 	<link rel="stylesheet" href="ais.css">
+	<script>
+		function showExplanation(questionID) {
+			var explanations = document.getElementsByClassName("explanation");
+			for (var i = 0; i < explanations.length; i++) {
+				if (explanations[i].style.display != 'none') {
+					explanations[i].style.display = 'none';
+				}
+			}
+			document.getElementById(questionID).style.display = 'block';
+		}
+	</script>
 </head>
 <body>
 	<h1><?php echo $xml->title->__toString(); ?></h1>
@@ -17,11 +28,19 @@ $footer= simplexml_load_file("Resources/footer_" . $_SESSION['lang'] . ".xml") o
 		<?php 
 		$i = 1;
 		foreach($xml->questions->question as $question) {
+			$j = 1;
 			echo '<h4>' . $question->text . '</h4>';
 			foreach($question->options->option as $option) {
-				echo '<input type="radio" name="q' . $i . '">' . $option->answer . '</input><br>';
+				echo str_replace("\'", "'", '<input type="radio" name="q' . $i . '" id="' . $i . '.' . $j . '" onclick="showExplanation(\'ex'. $i . '.' . $j . '\');">' . $option->answer . '</input><br>');
+				$j++;
 			}
-		$i++;
+			$j = 1;
+			foreach($question->options->option as $option) {
+				echo '<div class="explanation" id="ex' . $i . '.' . $j . '">' . $option->explanation . '</div>';
+				$j++;
+			}
+			$i++;
+
 		}
 		?>
 		<br>
