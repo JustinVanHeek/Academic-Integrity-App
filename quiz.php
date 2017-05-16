@@ -23,7 +23,7 @@ $footer= simplexml_load_file("Resources/footer_" . $_SESSION['lang'] . ".xml") o
 </head>
 <body>
 	<h1><?php echo $xml->title->__toString(); ?></h1>
-	<p><?php echo $xml->body->__toString(); ?></p>
+	<p><?php echo '<pre>' . $xml->body->__toString() . '</pre>'; ?></p>
 	<form action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> method="post">
 		<?php 
 		$i = 1;
@@ -37,7 +37,7 @@ $footer= simplexml_load_file("Resources/footer_" . $_SESSION['lang'] . ".xml") o
 			$j = 1;
 			echo '<br>';
 			foreach($question->options->option as $option) {
-				echo '<div class="explanation" id="ex' . $i . '.' . $j . '">' . $option->explanation . '</div>';
+				echo '<div class="explanation" id="ex' . $i . '.' . $j . '"><pre>' . $option->explanation . '</pre></div>';
 				$j++;
 			}
 			$i++;
