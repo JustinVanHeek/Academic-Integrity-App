@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<quiz>
+	<title>Vérifie ta compréhension</title>
+	<body>
+		Cette section va tester votre compréhension des concepts et des problèmes présentés dans le didacticiel. Il est divisé en quatre sections et devrait prendre environ 5 à 10 minutes pour être complété.
+
+		Pour chaque question, sélectionnez une réponse puis vérifiez votre réponse. Si votre réponse n'était pas correcte, réessayez. Vérifiez votre réponse à chaque question séparément; Vos réponses ne sont pas retenues d'une question à l'autre.
+	</body>
+	<questions>
+		<question>
+			<text>Quelles sont les valeurs fondamentales de l'intégrité académique?</text>
+			<options>
+				<option>
+					<answer>Honnêteté</answer>
+					<explanation>
+						Votre réponse est partiellement correcte. Mentir dans toutes les questions relatives à vos communications académiques, y compris les examens et les tâches, est une inconduite académique.
+
+						Cependant, la meilleure réponse est "tout ce qui précède".
+
+						Ces valeurs sont toutes fondamentales pour l'intégrité académique:
+
+						honnêteté
+						confiance
+						justice
+						le respect
+						responsabilité
+						Réessayer!
+					</explanation>
+				</option>
+				<option>
+					<answer>Confiance</answer>
+					<explanation>
+						Votre réponse est partiellement correcte. On peut croire à une personne digne de confiance;
+						Ils se présentent et travaillent sans tromperie.
+
+						Cependant, la meilleure réponse est "tout ce qui précède".
+
+						Ces valeurs sont toutes fondamentales pour l'intégrité académique:
+
+						honnêteté
+						confiance
+						justice
+						le respect
+						responsabilité
+						Réessayer!
+					</explanation>
+				</option>
+				<option>
+					<answer>Justice</answer>
+					<explanation>
+						Incorrect:
+						Votre réponse est partiellement correcte. C'est une inconduite académique pour faciliter l'avantage injuste grâce à des actions telles que l'affichage de solutions d'affectation aux forums de discussion, laissant un camarade de classe faire un aperçu de vos réponses lors d'un examen ou donner aux élèves des copies de vos tâches.
+
+						Cependant, la meilleure réponse est "tout ce qui précède".
+
+						Ces valeurs sont toutes fondamentales pour l'intégrité académique:
+
+						honnêteté
+						confiance
+						justice
+						le respect
+						responsabilité
+						Réessayer!
+					</explanation>
+				</option>
+				<option>
+					<answer>Le respect</answer>
+					<explanation>
+						Incorrect:
+						Votre réponse est partiellement correcte. Un comportement inadéquat et irrespectueux nuit à une culture de l'intégrité académique.
+
+						Cependant, la meilleure réponse est "tout ce qui précède".
+
+						Ces valeurs sont toutes fondamentales pour l'intégrité académique:
+
+						honnêteté
+						confiance
+						justice
+						le respect
+						responsabilité
+						Réessayer!
+					</explanation>
+				</option>
+				<option>
+					<answer>Responsabilité</answer>
+					<explanation>
+						Incorrect:
+						Votre réponse est partiellement correcte. Les étudiants de Waterloo ont la responsabilité de se conformer aux normes acceptables dans la communauté de l'Université de Waterloo.
+
+						Cependant, la meilleure réponse est "tout ce qui précède".
+
+						Ces valeurs sont toutes fondamentales pour l'intégrité académique:
+
+						honnêteté
+						confiance
+						justice
+						le respect
+						responsabilité
+						Réessayer!
+					</explanation>
+				</option>
+				<option>
+					<answer correct="true">Tout ce qui précède</answer>
+					<explanation>
+						Correct!
+						Votre réponse est correcte. Ces valeurs sont toutes fondamentales pour l'intégrité académique.
+
+						Honnêteté: dans toutes les questions relatives à vos communications universitaires
+						Est une inconduite académique.
+						Confiance: on peut croire à une personne digne de confiance; Personnes dignes de confiance
+						Se présentent eux-mêmes et leur travail sans tromperie.
+						L'équité: c'est une inconduite académique pour faciliter l'avantage injuste
+						Respect: un comportement inadéquat et irrespectueux nuit à une culture de
+						l'intégrité académique.
+						Responsabilité: les étudiants de Waterloo ont la responsabilité de se conformer aux normes acceptables dans la communauté.
+
+						Question suivante:
+					</explanation>
+				</option>
+			</options>
+		</question>
+		<question>
+			<text>L'Université de Waterloo a une politique qui décrit les infractions qui constituent une inconduite.</text>
+			<options>
+				<option>
+					<answer correct="true">Vrai</answer>
+					<explanation>
+						Politique universitaire 71 - La discipline étudiante décrit les infractions qui constituent une inconduite. Il décrit également les sanctions applicables.
+
+						Vous devriez connaître cette politique et la Politique 72 - Appels d'étudiants.
+
+						Question suivante:
+					</explanation>
+				</option>
+				<option>
+					<answer>Faux</answer>
+					<explanation>
+						Incorrect:
+						Les infractions qui constituent une inconduite sont décrites dans l'Université
+						Politique 71 - Discipline étudiante.
+
+						Réessayer!
+					</explanation>
+				</option>
+			</options>
+		</question>
+	</questions>
+</quiz>
