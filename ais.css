@@ -1,20 +1,19 @@
 html { 
   background: url(Assets/landingBackground.png) no-repeat center center fixed; 
   background-size: cover;
+height: 100%;
+width: 100%;
+}
+body {
+
 }
 button.home {
-	background-color: #FFCE0E;
-	height: 40px;
-	width: 150px;
-	border: none;
-	border-radius: 10px;
+	background: url(Assets/button.png)
 	font-family: Futura;
 	font-weight: bold;
 	text-align: center;
 	font-size: 24px;
-	box-shadow: 2px 2px 4px #000000;
 	margin: 15px;
-	outline-style: none;
 }
 
 button.home:hover {
@@ -34,8 +33,20 @@ img {
 	display: block;
 }
 
-.buttons {
-	text-align: center;
+.button {
+	background: url(Assets/button.png) no-repeat; 
+	background-size: 100% auto;
+width: 35%;
+font-size: 100vh;
+text-align: center;
+display: inline-flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+}
+
+.button-container {
+text-align: center;
+
 }
 
 .university-footer {
