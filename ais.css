@@ -5,7 +5,7 @@ height: 100%;
 width: 100%;
 }
 body {
-
+	font-family: Futura;
 }
 button.home {
 	background: url(Assets/button.png)
@@ -79,7 +79,7 @@ a:visited {
 
 @font-face {
 	font-family: Futura;
-	src: url(GlacialIndifference-Regular.otf);
+	src: url(Assets/GlacialIndifference-Regular.otf);
 }
 
 .dropdown {
@@ -96,4 +96,15 @@ a:visited {
 }
 .show {
 	display: block;
+}
+.explanation {
+	display: none;
+}
+pre {
+	font-family: Futura;
+	white-space: pre-line;
+	text-align: left;
+}
+.question {
+	display: none;
 }
