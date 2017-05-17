@@ -36,7 +36,29 @@ img {
 .button {
 	background: url(Assets/button.png) no-repeat; 
 	background-size: 100% auto;
-width: 35%;
+width: 49%;
+font-size: 100vh;
+text-align: center;
+display: inline-flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+}
+
+.button:hover {
+	background: url(Assets/button_hover2.png) no-repeat; 
+	background-size: 100% auto;
+width: 49%;
+font-size: 100vh;
+text-align: center;
+display: inline-flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+}
+
+.button:active {
+	background: url(Assets/button_active.png) no-repeat; 
+	background-size: 100% auto;
+width: 49%;
 font-size: 100vh;
 text-align: center;
 display: inline-flex;
@@ -47,6 +69,16 @@ align-items: center; /* align vertical */
 .button-container {
 text-align: center;
 
+}
+
+.footer-margin {
+display:block;
+height: 100px;
+}
+
+.logo {
+width:100%;
+height: auto;
 }
 
 .university-footer {
